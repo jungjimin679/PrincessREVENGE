@@ -1017,7 +1017,7 @@ def reset():
 
 def reset_data():
     global player,  curStageItems, curStageEnemies, curStageEnemiesCanvas, curX, curY
-    player = Player(Stat("용사",999,1,1,1,1,1))
+    player = Player(Stat("용사",20,1,1,1,1,1))
     player.pos = [2,8]
     curX = 2
     curY = 8
